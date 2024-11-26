@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="link">home</a>
+            <a href="galeria.html" class="link">galeria</a>
+            <a href="formulario.html" class="link">feedback</a>
+            <input type="button" value="?" id="botão3">
+        </nav>
+    
+    </header>
+    <div id="cabeça">
+      <h2>Formulário de Contato</h2>
+    </div>
+    <section id="tela">
+      <div id="campo">
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            
+            <label for="comentario">Mensagem:</label>
+            <textarea id="comentario" rows="10" cols="50" placeholder="Digite seu comentário aqui..."></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <a href="" target="_blank">
+        <img src="imagens/linkedin.png" alt="" >
+        <p>linkedin</p>
+      </a>
+      <a href="https://github.com/gabrielalveslopes" target="_blank">
+        <img src="imagens/github.png" alt="">
+        <p>github</p>
+      </a>
+      <a href=""  target="_blank">
+        <img src="imagens/instagram.png" alt="" >
+        <p>instagram</p>
+      </a>
+      <input type="button" value="creditos" class="creditos" onclick="colaboradores()">
+     </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
