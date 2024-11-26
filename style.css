@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui;
+    color:white;
+}
+header{
+    height: 60px;
+    background: rgb(168, 116, 216);
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+#botão1, #botão2, #botão3 {
+    position: fixed;  
+    top: 10px;       
+    right: 20px;       
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+body{
+    background: black;
+}
+nav{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav .link{
+    margin: 13px 30px;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.link:hover{
+    transform: scale(1.2);
+}
+.link:hover{
+    transform: scale(1.2);
+}
+#botão1:hover, #botão2:hover ,#botão3:hover{
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+h1{
+    color: rgb(133, 0, 221);
+    padding-left: 15px;
+    font-size: 2.0rem;
+}
+main{
+    padding: 30px 0;
+    background: rgb(0, 0, 0);
+}
+#img{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#imagem1{
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.texto{
+   padding: 2px 0px;
+   display: none;  
+   margin-bottom: 10px;
+}
+#t1,#t2,#t3,#t4{
+    margin: 10px 10px;
+    padding: 10px 0px;
+}
+#t4{
+    margin-bottom: 40px ;
+}
+h3{
+    color: rgb(135, 0, 153);
+}
+main{
+    padding: 30px 0;
+}
+.container{
+    background: black;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;  
+}
+
+
+.card {
+    height: 280px;
+    width: 300px;
+    background: white;
+    border-radius: 0px 0px 10px 10px; 
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+    cursor: pointer;
+} 
+.card.zoomed {
+    transform: scale(1.2); /* Aumenta o card */
+}
+.card img {
+    width: 100%;
+    cursor: pointer;
+}
+.legenda {
+    display: none;  /* O texto começa oculto */
+    padding: 10px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.card.zoomed .legenda {
+    display: block; 
+    transition: display 0.3s ease;  
+}
+
+.card img.zoomed {
+    transform: scale(1.5); 
+}
+.card h1{
+    color: black;
+}
+#tela {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#cabeça{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+#campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(168, 116, 216);
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    
+    
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+#botaoAjuda {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botaoAjuda:hover {
+    background-color: #ddd;
+}
+footer{
+    height: 60px;
+    background: rgb(50,50,50);
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 3px 30px 0px 0px;
+
+}
+.creditos {
+    position: fixed;  
+    bottom: 10px;        
+    right: 20px;       
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
