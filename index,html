@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="link">home</a>
+            <a href="galeria.html" class="link">galeria</a>
+            <a href="formulario.html" class="link">feedback</a>
+            <input type="button" value="?" id="botão1" onclick="mostraraviso()">
+        </nav>
+    </header>
+    <main>
+      <main>
+        <section>
+            <div class="container">
+                <div id="imagem1">
+                    <img src="imagens/eu.png" alt="" id="img" onclick="mostrarTexto()">
+                </div>
+                <div>
+                    <div class="texto" id="nome">
+                        <h1>Gabriel Alves</h1>
+                    </div>
+                    <article>
+                        <div class="texto" id="t1">
+                            <h3>Sobre mim</h3>
+                            <p>Sou um jovem apaixonado por tecnologia, com uma forte afinidade por jogos eletrônicos e tudo relacionado ao universo digital. Durante o ensino médio, tive a oportunidade de jogar basquete de forma não profissional, o que me ajudou a desenvolver habilidades de trabalho em equipe, disciplina e foco, além de ser uma atividade que sempre me proporcionou momentos de diversão e aprendizado.
+                              <br>
+                                Tenho uma grande aptidão por matérias exatas, como matemática e física, e isso me motivou a seguir caminhos acadêmicos e profissionais que envolvem lógica e raciocínio analítico. No meu tempo livre, gosto de explorar novas tecnologias e aprender sobre inovações digitais, o que reflete meu interesse por sempre entender mais sobre o mundo à minha volta e aprender coisas novas.
+                                <br>
+                                Atualmente, estou cursando Ciência da Computação e também possuo formação em Administração e Gestão de Empresas, o que me permite entender tanto os aspectos técnicos quanto os de gestão e estratégia. Estou no segundo período do curso de Ciência da Computação, onde busco expandir meus conhecimentos sobre programação e desenvolvimento tecnológico.
+                                <br>
+                                Há quase dois anos, estou em um relacionamento estável, o que tem me ensinado sobre compromisso, equilíbrio e como manter uma boa comunicação, tanto pessoal quanto profissional.
+                                <br>
+                                Atualmente, sou estagiário na Potencial, onde tenho a oportunidade de aplicar o que aprendi, além de desenvolver novas habilidades, principalmente em gestão e no campo tecnológico. Estou sempre em busca de oportunidades para crescer, aprender e me desenvolver em todas as áreas da minha vida, seja profissional, acadêmica ou pessoal.</p>
+                        </div>
+                        <div class="texto" id="t2">
+                            <h3>Experiências profissionais</h3>
+                            <p>Potencial créditos
+                                <br>
+                                Cargo: estagiário
+                                <br>
+                                Período 02/2024 – Até o momento
+                                Principal atividades: negociações de propostas de empréstimo, consórcio, títulos de
+                                capitalização através de ligações telefônicas.</p>
+                        </div>
+                        <div class="texto" id="t3">
+                            <h3>Competências</h3>
+                            <p>Habilidades Técnicas:
+
+                                Programação: Familiaridade com linguagens de programação e resolução de problemas lógicos.
+                                Conhecimento em matemática e exatas: Capacidade de aplicar conceitos matemáticos para resolver desafios em programação e análise de sistemas.
+                                Gestão de Projetos: Experiência básica em administração de tarefas e gerenciamento de tempo através do curso de Administração e Gestão de Empresas.
+                                Habilidades Interpessoais:
+                                <br><br>
+                                Trabalho em Equipe: Experiência adquirida jogando basquete no ensino médio, desenvolvendo espírito de colaboração e comunicação.
+                                Compromisso e Responsabilidade: Demonstração de responsabilidade no estágio e no relacionamento pessoal, garantindo o cumprimento de prazos e qualidade no trabalho.
+                                Comunicação: Capacidade de expressar ideias claramente, tanto de forma escrita quanto verbal, aprimorada através da interação com colegas e líderes durante estágios e projetos.
+                                Interesses e Curiosidades:
+                                <br><br>
+                                Aprendizado Contínuo: Forte desejo de aprender e se manter atualizado sobre novas tecnologias, com interesse em áreas como inteligência artificial, desenvolvimento de software e inovação digital.
+                                Tecnologia e Jogos Eletrônicos: Interesse profundo por jogos eletrônicos, com uma visão sobre como a indústria de games contribui para o avanço da tecnologia.
+                                Gestão e Planejamento:
+                                <br><br>
+                                Administração e Gestão de Empresas: Formação complementar em administração, o que permite aplicar conceitos de gestão estratégica, liderança e organização em contextos empresariais e tecnológicos.</p>
+                        </div>
+                        <div class="texto" id="t4">
+                            <h3>Escolaridade</h3>
+                            <p>Curso de Ciência da Computação
+                                <br>
+                                Universidade uninassau
+                                Previsão de Conclusão: 2027
+                                Período atual: 2º período
+                                <br>
+                                Disciplinas cursadas: programação web, Estruturas de Dados, estrutura de dados, ui/ux desing, POO.
+                                Atividades complementares: Participação em grupos de estudo e projetos práticos de programação.
+                                <br><br>
+                                Ensino Médio
+                                <br>
+                                Escola fernando mota
+                                <br>
+                                Conclusão: 2023
+                                <br>
+                                Participação em feiras de ciências e projetos de matemática.
+                                Destaque em disciplinas de exatas, com ênfase em matemática e informática.
+                                </p>
+                        </div>
+                    </article> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <a href="" target="_blank">
+        <img src="imagens/linkedin.png" alt="" >
+        <p>linkedin</p>
+      </a>
+      <a href="https://github.com/gabrielalveslopes" target="_blank">
+        <img src="imagens/github.png" alt="">
+        <p>github</p>
+      </a>
+      <a href=""  target="_blank">
+        <img src="imagens/instagram.png" alt="" >
+        <p>instagram</p>
+      </a>
+      <input type="button" value="creditos" class="creditos" onclick="colaboradores()">
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
