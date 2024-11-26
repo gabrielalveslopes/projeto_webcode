@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="link">home</a>
+            <a href="galeria.html" class="link">galeria</a>
+            <a href="formulario.html" class="link">feedback</a>
+            <input type="button" value="?" id="botão2" onclick="ajuda()">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="card">
+                    <img src="imagens/namorada.png" alt="">
+                    <h1>namorada</h1>
+                    <div class="legenda">
+                        <p class="fala">namoro incrivel de quase 2 anos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/familia.png" alt="">
+                    <h1>familia</h1>
+                    <div class="legenda">
+                        <p>minha familia</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/praia.jpeg" alt="" >
+                    <h1>praia</h1>
+                    <div class="legenda">
+                        <p>um dos meus locais favoritos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/basquete.jpeg" alt="" >
+                    <h1>basquete</h1>
+                    <div class="legenda">
+                        <p>esporte favorito</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/jogo.jpg" alt="" class="dentro">
+                    <h1>call of duty</h1>
+                    <div class="legenda">
+                        <p>jogo favorito (atual)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/trabalho.jpeg" alt="" class="dentro">
+                    <h1>Full-stack </h1>
+                    <div class="legenda">
+                        <p>trabalho dos sonhos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="" target="_blank">
+          <img src="imagens/linkedin.png" alt="" >
+          <p>linkedin</p>
+        </a>
+        <a href="https://github.com/gabrielalveslopes" target="_blank">
+          <img src="imagens/github.png" alt="">
+          <p>github</p>
+        </a>
+        <a href=""  target="_blank">
+          <img src="imagens/instagram.png" alt="" >
+          <p>instagram</p>
+        </a>
+        <input type="button" value="creditos" class="creditos" onclick="colaboradores()">
+       </footer>
+      
+    
+    <script src="script.js"></script>
+</body>
+</html>
